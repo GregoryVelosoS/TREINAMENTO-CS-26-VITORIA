@@ -32,8 +32,60 @@
         </header>
         <!-- CONTEÚDO PRINCIPAL -->
         <main>
-           
+            <h2>Ocorrências</h2>                
+            <!-- TABLE - CRIAÇÃO DE TABELA -->
+            <!-- BORDER - BORDER DE TABELA -->
+            <table border="5">
+                <!-- THEAD - CABEÇALHO DA TABELA -->
+                <thead>
+                    <!-- TR - CRIA UMA LINHA DENTRO DO THEAD -->
+                    <tr>
+                        <!-- TH - CRIA A COLUNA DENTRO DO THEAD -->
+                        <th> ID </th>
+                        <th> USUÁRIO </th>
+                        <th> PRODUTO ERRADO </th>
+                        <th> PRODUTO CORRETO </th>
+                        <th> DIFERENÇA (R$) </th>
+                    </tr>
+                </thead>
 
+                <!-- TBODY - CORPO DA TABELA -->
+                <tbody>
+                    <tr>
+                        <!-- TD - CRIA UMA COLUNA DENTRO DO TBODY -->
+                        <td> 1       </td>
+                        <td> Dougras </td>
+                        <td> Uva     </td>
+                        <td> Limão   </td>
+                        <td> - R$ 3  </td>
+                    </tr>
+                    <tr>
+                        <!-- TD - CRIA UMA COLUNA DENTRO DO TBODY -->
+                        <td> 2       </td>
+                        <!-- rowspan - controla quantas linhas aquela célula vai ocupar -->
+                        <td rowspan="2"> CRIS </td>
+                        <td> Mamão     </td>
+                        <td> Carambola   </td>
+                        <td> + R$ 10  </td>
+                    </tr>
+                    <tr>
+                        <!-- TD - CRIA UMA COLUNA DENTRO DO TBODY -->
+                        <td> 3       </td>
+                        <!-- <td> CRIS </td> -->
+                        <td> Jabuticaba     </td>
+                        <td> Amora   </td>
+                        <td> + R$ 7  </td>
+                    </tr>
+                </tbody>
+            
+                <!-- TFOOT - FOOTER DA TABELA -->
+                <tfoot>
+                    <tr>
+                        <!-- colspan - diz quantas colunas aquela vai ocupar -->
+                        <td colspan="5">TABELA ATUALIZA ÀS 67H00 </td>
+                    </tr>
+                </tfoot>
+            </table>
         </main>
         <!-- RODAPÉ DO SITE -->
         <footer>
